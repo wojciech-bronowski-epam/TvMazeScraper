@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.ServiceBus" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.1" />
     <PackageReference Include="RestSharp" Version="106.3.1" />
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.1" />
   </ItemGroup>
@@ -13,12 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\TvMazeScraper.Common\TvMazeScraper.Common.csproj" />
     <ProjectReference Include="..\TvMazeScraper.Data\TvMazeScraper.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
-      <HintPath>..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.hosting.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
