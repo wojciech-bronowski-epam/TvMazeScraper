@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvMazeScraper.ApiPresentation\TvMazeScraper.ApiPresentation.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Common\TvMazeScraper.Common.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Data\TvMazeScraper.Data.csproj" />
+  </ItemGroup>
+
+</Project>

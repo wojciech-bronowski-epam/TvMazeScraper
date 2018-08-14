@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Api", "TvMazeScraper.Api\TvMazeScraper.Api.csproj", "{AA2C7F99-46AB-4702-91D2-0332EC917780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.ApiServices", "TvMazeScraper.ApiServices\TvMazeScraper.ApiServices.csproj", "{66A1D07E-CACB-4157-A86D-379156ACF039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Data", "TvMazeScraper.Data\TvMazeScraper.Data.csproj", "{A380B11D-2A9C-4BC0-847F-6B658327BB1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.ScraperServiceApi", "TvMazeScraper.ScraperServiceApi\TvMazeScraper.ScraperServiceApi.csproj", "{43DD3114-F956-47F0-943C-E8904633146A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.ScraperServices", "TvMazeScraper.ScraperServices\TvMazeScraper.ScraperServices.csproj", "{785877C5-5359-425D-A2D1-15D82A42BF14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.Common", "TvMazeScraper.Common\TvMazeScraper.Common.csproj", "{C305AD15-1E50-4894-9109-C6F752F5AE40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMazeScraper.ApiPresentation", "TvMazeScraper.ApiPresentation\TvMazeScraper.ApiPresentation.csproj", "{056E5D18-2313-4A00-920C-6C29A837F40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.ScraperStarterFunction", "TvMazeScraper.ScraperStarterFunction\TvMazeScraper.ScraperStarterFunction.csproj", "{3C893385-BFD8-4841-B9B0-125F436B66A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{458C8243-79D4-4801-B5DA-994B16A45924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvMazeScraper.ApiServices.Tests.Unit", "TvMazeScraper.ApiServices.Tests.Unit\TvMazeScraper.ApiServices.Tests.Unit.csproj", "{7D0AA489-204D-47B1-B2FD-7860F9D2B763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA2C7F99-46AB-4702-91D2-0332EC917780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2C7F99-46AB-4702-91D2-0332EC917780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2C7F99-46AB-4702-91D2-0332EC917780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2C7F99-46AB-4702-91D2-0332EC917780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A1D07E-CACB-4157-A86D-379156ACF039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A1D07E-CACB-4157-A86D-379156ACF039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A1D07E-CACB-4157-A86D-379156ACF039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A1D07E-CACB-4157-A86D-379156ACF039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A380B11D-2A9C-4BC0-847F-6B658327BB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A380B11D-2A9C-4BC0-847F-6B658327BB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A380B11D-2A9C-4BC0-847F-6B658327BB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A380B11D-2A9C-4BC0-847F-6B658327BB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DD3114-F956-47F0-943C-E8904633146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DD3114-F956-47F0-943C-E8904633146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DD3114-F956-47F0-943C-E8904633146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DD3114-F956-47F0-943C-E8904633146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785877C5-5359-425D-A2D1-15D82A42BF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785877C5-5359-425D-A2D1-15D82A42BF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785877C5-5359-425D-A2D1-15D82A42BF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785877C5-5359-425D-A2D1-15D82A42BF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C305AD15-1E50-4894-9109-C6F752F5AE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C305AD15-1E50-4894-9109-C6F752F5AE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C305AD15-1E50-4894-9109-C6F752F5AE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C305AD15-1E50-4894-9109-C6F752F5AE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056E5D18-2313-4A00-920C-6C29A837F40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056E5D18-2313-4A00-920C-6C29A837F40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056E5D18-2313-4A00-920C-6C29A837F40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056E5D18-2313-4A00-920C-6C29A837F40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C893385-BFD8-4841-B9B0-125F436B66A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C893385-BFD8-4841-B9B0-125F436B66A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C893385-BFD8-4841-B9B0-125F436B66A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C893385-BFD8-4841-B9B0-125F436B66A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0AA489-204D-47B1-B2FD-7860F9D2B763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0AA489-204D-47B1-B2FD-7860F9D2B763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0AA489-204D-47B1-B2FD-7860F9D2B763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0AA489-204D-47B1-B2FD-7860F9D2B763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D0AA489-204D-47B1-B2FD-7860F9D2B763} = {458C8243-79D4-4801-B5DA-994B16A45924}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {611797FA-9BD8-4565-950C-918347EE322F}
+	EndGlobalSection
+EndGlobal
